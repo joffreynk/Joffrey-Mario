@@ -9,7 +9,33 @@
   <body>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 
-    <h1>Hello world, we are software developers!</h1>
+    <h1 id="title">freeCodeCamp Survey Form</h1>
+    <p id="description">Thank you for taking the time to help us improve the platform</p>
+    <form id="survey-form">
+    <label>name</label>
+    <input type="text" placeholder="Enter your name" id="name"/>
+    <label>Email</label>
+    <input type="email" placeholder="Enter your email" id="email"/>
+    <label>Age(optional)</label>
+    <input type="number" placeholder="Age" id="number"/>
+    <label>Which option best describes your current role?</label>
+    <select>
+    <option value="select the current role" disabled>select the current role</option>
+    <option value="Student">Student</option>
+    <option value="Full Time Job">Full Time Job</option>
+    <option value="Full Time Learner">Full Time Learner</option>
+    <option value="Prefer Not To Say">Prefer Not To Say</option>
+    <option value="Other">Other</option>
+    </select>
+    <label>Would you recommend freeCodeCamp to a friend?</label>
+    <input type="radio"/>
+    <label>Definitely</label>
+    <input type="radio"/>
+    <label>Maybe</label>
+    <input type="radio"/>
+    <label>Not sure</label>
+
+    </form>
 
 
     <script  src="js/index.js"></script>
